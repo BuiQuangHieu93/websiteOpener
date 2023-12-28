@@ -20,7 +20,13 @@ function App() {
   return (
     <div className="App">
       <h1>Website Opener</h1>
-      <p>This website will open https://www.youtube.com/ every 15 minutes.</p>
+      <p>
+        This website will open{" "}
+        <a>
+          https://login.wifidwn.vn/login?dst=&username=T-48%3A89%3AE7%3AE4%3A18%3AB2
+        </a>{" "}
+        every 15 minutes.
+      </p>
     </div>
   );
 }
